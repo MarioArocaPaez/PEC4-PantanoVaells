@@ -24,8 +24,8 @@ def main():
         transform.mostrar_fechas(df)
 
     if not args.ex or args.ex >= 4:
-        visualize.graficar_evolucion(df, "marocap")
-        df = visualize.graficar_suavizado(df, "marocap")
+        visualize.graficar_evolucion(df, "Mario Aroca Páez")
+        df = visualize.graficar_suavizado(df, "Mario Aroca Páez")
 
     if not args.ex or args.ex >= 5:
         periodos = drought.calcula_periodos(df)

@@ -5,9 +5,9 @@ def renombrar_columnas(df):
     mapping = {
         "Dia": "dia",
         "Estació": "estacio",
-        "Nivell embassament (m. sobre el nivell del mar)": "nivell_msnm",
-        "Nivell embassament (%)": "nivell_perc",
-        "Volum embassat (hm³)": "volum"
+        "Nivell absolut (msnm)": "nivell_msnm",
+        "Percentatge volum embassat (%)": "nivell_perc",
+        "Volum embassat (hm3)": "volum"
     }
     df = df.rename(columns=mapping)
     print(f"\nColumnas renombradas: {list(df.columns)}")
