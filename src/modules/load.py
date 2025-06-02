@@ -6,7 +6,7 @@ def load_data(ruta):
 
 def explora_datos(df):
     """Muestra primeras filas, columnas e infor general del DataFrame"""
-    print("Primeras Filas:")
+    print("\nPrimeras Filas:")
     print(df.head())
     print("\nColumnas:")
     print(df.columns)
