@@ -1,5 +1,3 @@
-import re
-
 def renombrar_columnas(df):
     """Renombra las columnas originales del DataFrame a nombres más simples."""
     mapping = {
